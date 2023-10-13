@@ -23,7 +23,7 @@ function funn(myProduct) {
     <div>
     <h4 class="title">${items.name}</h4>
     <div class="rating">
-        <img src="images/rating-${items.rating.stars*10}.png">
+        <img src="rating-${items.rating.stars*10}.png">
         <span>${items.rating.counting}</span>
     </div>
     <span class="quatity-title">Quantity:</span>
