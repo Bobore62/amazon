@@ -4,7 +4,7 @@ export let products = [
         id:'',
         name: "Intermediate composite basketball",
         price: "50000",
-        image: "images/intermediate-composite-basketball.jpg",
+        image: "intermediate-composite-basketball.jpg",
         rating: {
             stars: 4.5,
             counting: 17000
@@ -14,7 +14,7 @@ export let products = [
         id:'',
         name: "Electric glass and steel hot water kettle",
         price: "5000",
-        image: "images/electric-glass-and-steel-hot-water-kettle.webp",
+        image: "electric-glass-and-steel-hot-water-kettle.webp",
         rating: {
             stars: 4,
             counting: 1000
@@ -24,7 +24,7 @@ export let products = [
         id:'',
         name: "Plain hooded fleece sweatshirt yellow",
         price: "38000",
-        image: "images/plain-hooded-fleece-sweatshirt-yellow.jpg",
+        image: "plain-hooded-fleece-sweatshirt-yellow.jpg",
         rating: {
             stars: 4.5,
             counting: 7000
@@ -37,7 +37,7 @@ export let products = [
         id:'',
         name: "6 piece white dinner plate set",
         price: "20000",
-        image: "images/6-piece-white-dinner-plate-set.jpg",
+        image: "6-piece-white-dinner-plate-set.jpg",
         rating: {
             stars:5,
             counting: 5000
@@ -47,7 +47,7 @@ export let products = [
         id:'',
         name: "Adults plain cotton T-shirt 2 pack teal",
         price: "18000",
-        image: "images/adults-plain-cotton-tshirt-2-pack-teal.jpg",
+        image: "adults-plain-cotton-tshirt-2-pack-teal.jpg",
         rating: {
             stars: 4.5,
             counting: 12000
@@ -59,7 +59,7 @@ export let products = [
         id:'',
         name: "Knit athletic sneakers gray",
         price: "38000",
-        image: "images/knit-athletic-sneakers-gray.jpg",
+        image: "knit-athletic-sneakers-gray.jpg",
         rating: {
             stars: 5,
             counting: 5000
@@ -71,7 +71,7 @@ export let products = [
         id:'',
         name: "Luxury tower set 6 piece",
         price: "5000",
-        image: "images/luxury-tower-set-6-piece.jpg",
+        image: "luxury-tower-set-6-piece.jpg",
         rating: {
             stars: 4,
             counting: 100
@@ -82,7 +82,7 @@ export let products = [
         id:'',
         name: "Athletic cotton socks 6 pairs",
         price: "5000",
-        image:"images/athletic-cotton-socks-6-pairs.jpg",
+        image:"athletic-cotton-socks-6-pairs.jpg",
         rating: {
             stars: 5,
             counting: 9000
