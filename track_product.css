@@ -1,0 +1,68 @@
+body{
+    padding: 80px 20px 10px;
+}
+.date {
+    margin: 15px 0 10px;
+}
+.status {
+    width: 100%;
+    margin: 20px 0 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.status p{
+    font-weight: 600;
+    font-size: 18px;
+}
+.pic {
+    margin: 15px 0;
+    width: 150px;
+}
+.view{
+    margin:15px 0;
+    text-decoration: underline;
+}
+.pic img{
+    width: 100%;
+}
+.bar {
+    width: 100%;
+    height: 25px;
+    border: 2px solid rgb(240, 240, 240);
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.name {
+    font-size: 18px;
+    margin: 5px 0;
+}
+.bar span{
+    --length:0%;
+    content: "";
+    position: absolute;
+    width: var(--length);
+    background-color: green;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    animation: slow 5s forwards 0s linear;
+}
+@keyframes slow{
+    from {
+        width: 0;
+    }
+    to{
+        width: var(--length);
+    }
+}
+@media screen and (max-width:450px){
+    .status {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .pic {
+        width: 100%;
+    }
+    
+}

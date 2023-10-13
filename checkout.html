@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+    <header class="heds">
+        <a class="logo" href="index.html">
+            <img src="images/amazon-logo.png">
+        </a>
+        <a class="small-logo" href="index.html">
+           <img src="images/amazon-mobile-logo.png" >   
+        </a>
+        <h3>Checkout(<span class="items">0</span>)</h3>
+        <img src="./images/checkout-lock-icon.png">
+    </header>
+ 				 <div class="snap">
+      </div>
+    <h2 class="check-header">Review your checkout</h2>
+    <section class="checkout-summary">
+        
+        <div class="cart-item">
+        </div>
+        <div class="order-summary">
+            <h3 class="header-order">Order summary</h3>
+            <div class="order-details">
+                <div class="order-detail">
+                    <div>Items(<span class="items-in"></span>)</div>
+                    <div class="val total-price"></div>
+                </div>
+                <div class="order-detail">
+                    <div>Shipping & handling:</div>
+                    <div class="handling val"></div>
+                </div>
+                <div class="order-detail">
+                    <div>Total before tax:</div>
+                    <div class="before-tax val"></div>
+                </div>
+                <div class="order-detail">
+                    <div>Estimated tax(10%):</div>
+                    <div class="tax val"></div>
+                </div>
+            </div>
+            <div class="total">
+                <h4>Order total:</h4>
+                <span class="total-order val"></span>
+            </div>
+            <button class="button">Place your order</button>
+
+        </div>
+    </section>
+    <script type="module" src="checkout.js">
+    </script>
+</body>
+</html>
