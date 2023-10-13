@@ -1,14 +1,14 @@
 export const header =`<div class="wrap-flex">
 <a class="small-logo" href="index.html">
-<img src="images/amazon-mobile-logo-white.png" >
+<img src="amazon-mobile-logo-white.png" >
 </a>
 <a class="logo" href="index.html">
-<img src="images/amazon-logo-white.png">
+<img src="amazon-logo-white.png">
 </a>
 <div class="search-box">
 <input placeholder = "Search" class="search-input">
 <button class="search-button">
-    <img src="images/search-icon.png">
+    <img src="search-icon.png">
 </button>
 </div>
 <a class="cart-link" href="order.html">
@@ -19,7 +19,7 @@ export const header =`<div class="wrap-flex">
 </a>
 <a class="cart-link" href="checkout.html">
 <div class="cart">
-    <img src="images/cart-icon.png">
+    <img src="cart-icon.png">
     <span class="quantity1">0</span>
 </div>
 </a>
