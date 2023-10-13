@@ -9,8 +9,7 @@ const headera = document.querySelector('.header');
 headera.innerHTML= header;
 toggleFun()
 let count=0;
-console.log(order)
-console.log(products)
+
 const wrap = document.querySelector('.order-section');
 let html=''
 
@@ -168,7 +167,7 @@ function fun(arr,arr2,e) {
                     ${(el.size)?'<div>Size: '+el.size+'</div>':''}
             
                     ${(el.color)?'<div>Color: '+el.color+'</div>':''}
-                    <button class="again" data-product-id = '${el.id}' data-order-id='${e.orderId}'><img src="/images/buy-again.png">Buy it again</button>
+                    <button class="again" data-product-id = '${el.id}' data-order-id='${e.orderId}'><img src="buy-again.png">Buy it again</button>
             </div>
 
             </div>
