@@ -54,9 +54,8 @@ body {
 }
 .track,.again {
     padding: 8px 10px; 
-    outline: 1px solid grey;
     border-radius: 5px;
-    border: none;
+    border: 1px solid grey;;
 }
 .again {
     background-color: rgb(245, 187, 40);
@@ -107,5 +106,8 @@ body {
   }
     .track,.again{
         width: 100%;
+    }
+    .product-wrap{
+        gap: 15px;
     }
 }
