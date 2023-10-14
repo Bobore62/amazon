@@ -93,7 +93,7 @@ document.querySelectorAll('.again')
                     matching.quatity+=match.quatity;
                     e.innerHTML='Added'
                     setTimeout(()=>{
-                        e.innerHTML='<img src="/images/buy-again.png">Buy it again'
+                        e.innerHTML='<img src="buy-again.png">Buy it again'
                     },1000)
                 } else{
                     cart.push({
@@ -104,7 +104,7 @@ document.querySelectorAll('.again')
                     })
                     e.innerHTML='Added'
                     setTimeout(()=>{
-                        e.innerHTML='<img src="/images/buy-again.png">Buy it again'
+                        e.innerHTML='<img src="buy-again.png">Buy it again'
                     },1000)
                 }
                 saveToLocal()
