@@ -23,13 +23,13 @@ export const header =`<div class="wrap-flex">
     <span class="quantity1">0</span>
 </div>
 </a>
-<div class="togle">
+<div class="togle close">
 <span class="bar1"></span>
 <span class="bar2"></span>
 <span class="bar3"></span>
 </div>
 </div>
-<div class="slide close">
+<div class="slide">
 <a class="cart-linka" href="order.html">
     <div class="oders">
     <span class="return">Returns</span>
