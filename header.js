@@ -29,7 +29,7 @@ export const header =`<div class="wrap-flex">
 <span class="bar3"></span>
 </div>
 </div>
-<div class="slide">
+<div class="slide close">
 <a class="cart-linka" href="order.html">
     <div class="oders">
     <span class="return">Returns</span>
