@@ -314,16 +314,16 @@ a {
 }
 .close .bar1 {
     width:26px;
-    transform:rotate(45deg); 
+    transform:rotate(0deg); 
     transform-origin: left;
 }
 .close .bar3 {
     width:26px;
-    transform:rotate(-45deg); 
+    transform:rotate(0deg); 
     transform-origin: left;
 }
 .close .bar2 {
-    visibility: hidden;
+    visibility: visible;
 }
 .sizes, .color{
     display: flex;
