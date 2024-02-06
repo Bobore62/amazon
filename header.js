@@ -49,6 +49,7 @@ export function toggleFun() {
     const slide = document.querySelector('.slide');
     togle.addEventListener('click',(e)=>{
         togle.classList.toggle('open') 
+        togle.classList.toggle('close')
         display(slide);
     });
 }
